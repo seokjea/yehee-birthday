@@ -1,0 +1,6 @@
+#!/home/sj/yehee_birthday_streamlit/yebirth_vir/bin/python
+import sys
+from watchdog.watchmedo import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
